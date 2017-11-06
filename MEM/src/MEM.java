@@ -44,6 +44,7 @@ public class MEM extends javax.swing.JFrame {
     	File = new java.lang.String();
     	
 // menu Plik
+// dodatkowy testowy komentarz	    
         menuBar = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         nowy = new javax.swing.JMenuItem();
