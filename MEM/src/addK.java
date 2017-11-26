@@ -96,7 +96,7 @@ public class addK extends JDialog implements ActionListener{
 
     getContentPane().add(radioPanel, BorderLayout.CENTER);
     
- 
+    //hfhfhfhdrtfhrs
     
     JPanel buttonPane = new JPanel();
     JButton button = new JButton("Dodaj"); 
