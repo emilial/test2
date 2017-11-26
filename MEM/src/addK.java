@@ -84,6 +84,8 @@ public class addK extends JDialog implements ActionListener{
     group.add(afterButton);
 
     // rejestracja słuchacza
+    // rejestracja słuchacza
+    // rejestracja słuchacza
     vorButton.addActionListener(this);
     afterButton.addActionListener(this);
 
@@ -94,7 +96,7 @@ public class addK extends JDialog implements ActionListener{
 
     getContentPane().add(radioPanel, BorderLayout.CENTER);
     
- 
+    //hfhfhfhdrtfhrs
     
     JPanel buttonPane = new JPanel();
     JButton button = new JButton("Dodaj"); 
