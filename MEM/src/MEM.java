@@ -45,6 +45,9 @@ public class MEM extends javax.swing.JFrame {
     	
 // menu Plik   
 //sfsdSFASEFE
+//sdgadagd
+//1111111111111111111111111111111111111111111111111
+//222222222222222222222222222222222222222222222222222    	
 //EWGEASDGDASDGSDG
 //dgdafgdfg	    
         menuBar = new javax.swing.JMenuBar();
