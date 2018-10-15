@@ -21,7 +21,9 @@ import javax.swing.*;
 public class importT {
 
 //public class tabela extends DefaultTableModel {
-	
+	//public class tabela extends DefaultTableModel {
+//public class tabela extends DefaultTableModel {
+
     static String nagl[] = new String[10];
 	static String body[][] = new String[4][4];
 	static int row = 0; 
@@ -30,14 +32,16 @@ public class importT {
 	static String f = "";
 	static String f2;
     final Map<String,Object> vals = new HashMap<String,Object>();
-    
+    //public class tabela extends DefaultTableModel {
+
     //wczytanie danych z pliku *.tex
     public static void file(String f) throws IOException {
 //		System.out.println(" próba wczytania pliku "+f);
 
 		row = 0;
 		columns =0;
-		body = new String[20][20];
+	//public class tabela extends DefaultTableModel {
+	body = new String[20][20];
 		
 		int t1 = 0,t2 = 0, k=0;
     		// czytanie pliku
@@ -52,7 +56,8 @@ public class importT {
     			if (starts2 == true){
   			      
     				for(int i=0;i<s.length(); i++)
-  			      {
+  //public class tabela extends DefaultTableModel {
+			      {
   			         if(s.charAt(i)=='%') k=i;
   			      }
     				if (k==0)
@@ -64,7 +69,8 @@ public class importT {
     				else
         				for(int i=0;i<k; i++)
       			      {
-      			         if(s.charAt(i)=='{') t1=i;
+  //public class tabela extends DefaultTableModel {
+    			         if(s.charAt(i)=='{') t1=i;
       			         if(s.charAt(i)=='}') t2=i;
       			      }
     			      
@@ -76,7 +82,8 @@ public class importT {
     			starts2 = s.startsWith("\\begin{tabular}");
 
     			if (starts2 == true){
-    				String s1 = s.replace("\\begin{tabular}",""); 
+   //public class tabela extends DefaultTableModel {
+ 				String s1 = s.replace("\\begin{tabular}",""); 
 //    		        System.out.println(s1);
 
     				
@@ -85,7 +92,8 @@ public class importT {
     			         if(s1.charAt(i)=='%') k=i;
     			      }
       				if (k==0)
-      				for(int i=0;i<s1.length(); i++)
+  //public class tabela extends DefaultTableModel {
+    				for(int i=0;i<s1.length(); i++)
       			      {
       			         if(s1.charAt(i)=='{') t1=i;
       			         if(s1.charAt(i)=='}') t2=i;
@@ -94,7 +102,8 @@ public class importT {
           				for(int i=0;i<k; i++)
         			      {
         			         if(s1.charAt(i)=='{') t1=i;
-        			         if(s1.charAt(i)=='}') t2=i;
+ //public class tabela extends DefaultTableModel {
+       			         if(s1.charAt(i)=='}') t2=i;
         			      }
       				
     				String splited = s1.substring(t1+1,t2); 
