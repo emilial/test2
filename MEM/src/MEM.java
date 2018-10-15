@@ -43,7 +43,10 @@ public class MEM extends javax.swing.JFrame {
         tab = new javax.swing.JTable();        
     	File = new java.lang.String();
     	
-// menu Plik    	
+// menu Plik   
+//sfsdSFASEFE
+//EWGEASDGDASDGSDG
+//dgdafgdfg	    
         menuBar = new javax.swing.JMenuBar();
         menu1 = new javax.swing.JMenu();
         nowy = new javax.swing.JMenuItem();
@@ -54,6 +57,7 @@ public class MEM extends javax.swing.JFrame {
         impH = new javax.swing.JMenuItem();
         impO = new javax.swing.JMenuItem();
         separator1_plik = new javax.swing.JPopupMenu.Separator();
+//agfadfgdagdg	    
         utr = new javax.swing.JMenu();
         exp = new javax.swing.JMenu();
         expT = new javax.swing.JMenuItem();
