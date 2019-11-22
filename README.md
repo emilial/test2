@@ -19,4 +19,12 @@ AERDTKGE e
   HSF
   HJSF
   JGGTYGKJSGYJ
+  d
+  fh
+  fg
+  hj
+  fxj
+  gc
+  j
+  g
   TFHE
